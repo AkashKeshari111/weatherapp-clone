@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+    class payment{
+        constructor(){
+            var name;
+            var mobile;
+        }
+
+        getname(){
+            return this.name;
+        }
+        setname(value){
+         return this.name=value;
+        
+        }
+        
+        getmobile(){
+            return this.mobile;
+        }
+        setmobile(num){
+         return this.mobile=num;
+        
+        }
+    }
+
+let p1=new payment()
+p1.setname("Akash")
+p1.setmobile(8523697412)
+console.log(p1.getname(),p1.getmobile())
+
+
+</script>
